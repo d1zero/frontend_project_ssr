@@ -30,7 +30,7 @@ const NewsDetail = observer(() => {
     return (
         <MainLayout>
             <Head>
-                <title>Article #{router.query.id}</title>
+                <title>Post #{router.query.id}</title>
             </Head>
             <div className="news-detail">
                 {loading ? (
